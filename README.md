@@ -1,6 +1,6 @@
-# 🎮 Emulator Setup Scripts
+# 🎮 Portable Emulator Setup Scripts
 
-> **Vibe-coded** — these scripts were written with AI assistance. They work great, but read them before running if you're the cautious type.
+> I **Vibe-coded** — these scripts using. They work great, but read them before running if you're the cautious type.
 
 A collection of Bash scripts that install, configure, and keep up-to-date the best Linux emulators — all in a clean, portable way under `~/Emulators/`.
 
@@ -9,7 +9,7 @@ Each script:
 - Installs the emulator as an AppImage or portable binary under `~/Emulators/<Name>/`
 - Symlinks the config/data folder so everything stays in one place
 - Creates a desktop entry under an **Emulators** category in your app launcher
-- Works on KDE, GNOME, XFCE, and most other desktop environments
+- Works only for KDE (for now)
 
 ---
 
@@ -76,10 +76,8 @@ Each emulator's config and save data lives inside its own `~/Emulators/<Name>/` 
 ## ⚠️ Notes
 
 - **Dolphin** uses an [unofficial AppImage by pkgforge-dev](https://github.com/pkgforge-dev/Dolphin-emu-AppImage) that tracks official releases, since the official repo doesn't publish AppImages directly.
-- **DuckStation** uses a rolling `latest` tag — the version is tracked by release date.
-- **Xenia Canary** is a **Windows-first** emulator. The Linux build is experimental and may not run all games.
-- **shadPS4** is early in development — expect limited game compatibility.
 - ROMs, BIOSes, and firmware files are **not included** and must be sourced legally.
+- Tested Only On Arch KDE , Planned to add support for all linux distros and DEs 
 
 ---
 
