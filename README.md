@@ -1,6 +1,6 @@
 # 🎮 Portable Emulator Setup Scripts
 
-> I **Vibe-coded** — these scripts using. They work great, but read them before running if you're the cautious type.
+> I **Vibe-coded** these scripts using AI. They work great, but read them before running if you're the cautious type.
 
 A collection of Bash scripts that install, configure, and keep up-to-date the best Linux emulators — all in a clean, portable way under `~/Emulators/`.
 
